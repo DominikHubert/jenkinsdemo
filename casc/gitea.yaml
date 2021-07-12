@@ -1,0 +1,11 @@
+credentials:
+    system:
+      domainCredentials:
+        - credentials:
+          - usernamePassword:
+              description: "Global_GiteaToken"
+              id: "docker"
+              scope: GLOBAL
+              username: "dkowatsch"
+              password: "${DOCKER_PW}"
+

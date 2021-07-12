@@ -1,0 +1,16 @@
+/* Bad CSS */
+.bad-spacing,.bad-example{color:#222222;background:url( "../bad.png" );}
+ 
+.bad-spacing{font-style:italic}
+
+@media only all{
+
+.media-example{
+font-weight:strong;
+}
+h1 {
+color: navy;
+margin-left: 20px;
+}
+}
+
