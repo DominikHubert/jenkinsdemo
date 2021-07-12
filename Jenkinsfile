@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        /* 
+        
          stage('linting') {
 
 
@@ -21,7 +21,7 @@ pipeline {
                 }
             }
          }
-        */
+        
 
         stage('build') {
             when { expression { return currentBuild.currentResult == "SUCCESS" } }
