@@ -3,6 +3,7 @@ pipeline {
 
     stages {
         
+          /*
          stage('linting') {
 
 
@@ -21,6 +22,7 @@ pipeline {
                 }
             }
          }
+        */
         
 
         stage('build') {
