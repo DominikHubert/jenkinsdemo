@@ -3,7 +3,7 @@ pipeline {
 
     stages {
         
-          /*
+          
          stage('linting') {
 
 
@@ -21,8 +21,7 @@ pipeline {
                 archiveArtifacts 'results.xml'
                 }
             }
-         }
-        */
+         
         
 
         stage('build') {
