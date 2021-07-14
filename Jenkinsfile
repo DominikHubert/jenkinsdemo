@@ -3,6 +3,7 @@ pipeline {
 
     stages {
         
+        
          stage('linting') {
 
 
@@ -20,8 +21,7 @@ pipeline {
                 archiveArtifacts 'results.xml'
                 }
             }
-         }
-        
+         
 
         stage('build') {
             when { expression { return currentBuild.currentResult == "SUCCESS" } }
