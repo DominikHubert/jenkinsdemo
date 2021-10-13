@@ -21,7 +21,7 @@ pipeline {
                 }
             }
          
-        // }
+        }
 
         stage('build') {
             when { expression { return currentBuild.currentResult == "SUCCESS" } }
